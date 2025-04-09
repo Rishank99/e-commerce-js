@@ -3,7 +3,7 @@ import { defineConfig } from "vite";
 import { resolve } from "path";
 
 export default defineConfig({
-  base: "/e-commerce-js",
+  base: "/e-commerce-js/",
   build: {
     rollupOptions: {
       input: {
