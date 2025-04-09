@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Page</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header class="section-navbar">
+      <section class="top_txt">
+        <div class="head container">
+          <div class="head_txt">
+            <p>Free shipping, 30-day return or refund guarantee.</p>
+          </div>
+          <div class="sing_in_up">
+            <a href="#">SIGN IN</a>
+            <a href="#">SIGN UP</a>
+          </div>
+        </div>
+      </section>
+      <div class="container">
+        <div class="navbar-brand">
+          <a href="index.html">
+            <h1 class="website-title">GLAM CART</h1>
+          </a>
+        </div>
+
+        <nav class="navbar">
+          <ul>
+            <li class="nav-item">
+              <a href="/" className="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="about.html" class="nav-link">about</a>
+            </li>
+            <li class="nav-item">
+              <a href="products.html" class="nav-link">products</a>
+            </li>
+            <li class="nav-item">
+              <a href="contact.html" class="nav-link">contact</a>
+            </li>
+            <li class="nav-item">
+              <a
+                href="addToCart.html"
+                class="nav-link add-to-cart-button"
+                id="cartValue"
+                ><i class="fa-solid fa-cart-shopping"> 0</i></a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Start CONTACT Section -->
+
+    <div class="section-contact">
+      <div class="container">
+        <h2 class="section-common-heading">Contact Us</h2>
+        <p class="section-common-subheading">
+          Get in touch with us. We are always here to help you.
+        </p>
+      </div>
+
+      <div class="container grid grid-two--cols">
+        <div class="contact-content">
+          <form action="#">
+            <div class="grid grid-two--cols mb-3">
+              <div>
+                <label for="fullname">Full Name</label>
+                <input
+                  type="text"
+                  name="fullname"
+                  id="fullname"
+                  required
+                  autocomplete="off"
+                  placeholder="Enter Full Name"
+                />
+              </div>
+
+              <div>
+                <label for="email">Email Address</label>
+                <input
+                  type="email"
+                  name="eamil"
+                  id="email"
+                  required
+                  autocomplete="off"
+                  placeholder="Abc@gmail.com"
+                />
+              </div>
+            </div>
+
+            <div class="mb-3">
+              <label for="subject">Subject</label>
+              <input
+                type="text"
+                name="subject"
+                id="subject"
+                required
+                autocomplete="off"
+                placeholder="Title of Your Message"
+              />
+            </div>
+
+            <div class="mb-3">
+              <label for="message">Message</label>
+              <textarea
+                name="message"
+                id="textarea"
+                cols="30"
+                rows="10"
+                placeholder="Enter Your Message"
+              ></textarea>
+            </div>
+
+            <div>
+              <button type="submit" class="btn btn-submit">Send Message</button>
+            </div>
+          </form>
+        </div>
+
+        <div class="content-map">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d115408.09799686659!2d82.90870595402012!3d25.32089492146145!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x398e2db76febcf4d%3A0x68131710853ff0b5!2sVaranasi%2C%20Uttar%20Pradesh!5e0!3m2!1sen!2sin!4v1740234857962!5m2!1sen!2sin"
+            width="100%"
+            height="500"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </div>
+    </div>
+
+    <!-- End CONTACT Section -->
+
+    <!-- Start Footer Section -->
+
+    <footer class="section-footer">
+      <script src="./footer"></script>
+    </footer>
+
+    <!-- End Footer Section -->
+
+    <script type="module" src="main.js"></script>
+  </body>
+</html>
